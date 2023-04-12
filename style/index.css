@@ -1,1 +1,101 @@
-/* CSS stillerinizi buraya girin */
+.wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1 {
+    margin-left: 2%;
+   font-size: 3rem;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.menu {
+    font-family: 'Tillana', cursive;
+}
+
+.about-text {
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+h3 {
+    font-family: 'Tillana', cursive;
+}
+
+.button {
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.header{
+    background-color: rgb(243, 140, 140);
+    padding: 0.5rem 0;
+    color: rgb(215, 188, 188);
+}
+
+.menu{
+    padding: 0.05rem 0.7rem;
+    background-color: rgb(225, 180, 180);
+    margin-right: 3%;
+}
+
+.header nav {
+    margin-top: 2%;
+}
+
+.about-img img {
+    width: 19rem;
+    margin-top: 4%;
+}
+.project-img img{
+    margin-top: 4%;
+    width: 12rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-image{
+    flex-basis: 45rem;
+    min-width: 40rem;
+    height: 40rem;
+    object-fit: contain;
+}
+
+.about{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.project {
+    width: 12rem;
+}
+
+.footer {
+    background-color: rgb(238, 202, 202);
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-img{
+    width: 10rem;
+    height: 9rem;
+    display: flex
+    
+    
+}
